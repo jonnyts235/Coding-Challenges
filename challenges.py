@@ -33,3 +33,26 @@ greeting_two()
 #     print("I don't know that answer but have a great day")
 # greeting()
   
+
+""" Challenge 2 """
+
+""" If name matches it prints out a specialized message. The next one if its a number then it would add 5 if not it would say that it can't """
+
+def name_classifier():
+  user_input = input("What is your name? ")
+  if user_input.lower() == "mario":
+    print(f"Hello Mario!")
+  elif user_input.lower() == "luigi":
+    print("Hi Luigi!")
+  else:
+    print("You are no bueno")
+name_classifier()
+
+
+def number_add(number):
+  if number == int(number):
+    print(number + 5)
+  else:
+    print("Not a number")
+
+number_add(10)
