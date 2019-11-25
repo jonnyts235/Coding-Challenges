@@ -56,3 +56,33 @@ def number_add(number):
     print("Not a number")
 
 number_add(10)
+
+
+""" Coding Challenge 3 """
+
+# list_uno = ["hello", "bye", "happy"]
+# list_dos = ["hola", "adios", "bueno"]
+
+# def list_merger(list_one, list_two):
+#   new_list = list_one + list_two
+#   print(new_list)
+
+# list_merger(list_uno, list_dos)
+
+
+# def counter(max):
+#   for elements in range(max + 1):
+#     print(elements)
+
+# counter(5)
+
+def counter():
+ counter = 0
+ checker = True
+ while counter > 0:
+   counter = counter + 1
+   print(counter)
+   if counter == 5:
+     checker = False
+     return checker
+counter()
