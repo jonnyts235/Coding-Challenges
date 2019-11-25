@@ -86,3 +86,19 @@ def counter():
      checker = False
      return checker
 counter()
+
+
+""" Coding Challenge 4 """
+
+def Counter(incrementer, max):
+  max += incrementer
+  for num in range(0,max,incrementer):
+    print(num)
+Counter(2,10)
+
+
+
+def Largest_Number(array):
+  array.sort()
+  print(f"Largest Number is {array[-1]}")
+Largest_Number([1,2,7,4,5])
