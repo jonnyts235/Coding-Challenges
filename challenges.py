@@ -102,3 +102,18 @@ def Largest_Number(array):
   array.sort()
   print(f"Largest Number is {array[-1]}")
 Largest_Number([1,2,7,4,5])
+
+""" Coding Challenge 5 """
+
+word = "word"
+sentence = "The cow jumped over the moon"
+
+def word_reverse(word):
+  word = word[::-1]
+  print(word)
+word_reverse(word)
+
+def reverse_sentence(sentence): 
+  sentence = sentence[::-1] 
+  print(sentence)
+reverse_sentence(sentence)
