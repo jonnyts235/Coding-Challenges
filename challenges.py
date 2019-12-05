@@ -117,3 +117,27 @@ def reverse_sentence(sentence):
   sentence = sentence[::-1] 
   print(sentence)
 reverse_sentence(sentence)
+
+
+""" Coding Challenge 6 """
+
+import random
+
+list = ['a', 'b', 'c', 'd', 'e', 'f','0','1','2','3','4','5','6','7','8','9']
+
+def random_hex(list):
+  hex_list = random.choices(list, k=6)
+  join_list = ''.join(hex_list)
+  new_hex = '#' + join_list
+  print(new_hex)
+
+random_hex(list)
+
+
+string = "I like turtles"
+
+def frame(string):
+  new_string = string.split()
+  for i in new_string:
+    print('#',i,'#')
+frame(string)
