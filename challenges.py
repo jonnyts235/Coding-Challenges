@@ -141,3 +141,27 @@ def frame(string):
   for i in new_string:
     print('#',i,'#')
 frame(string)
+
+""" Coding Challenge 7 """
+
+def even_odd(num):
+  if num % 2 == 0:
+    print("The number is even...")
+  else:
+    print("The number is odd...")
+even_odd(5)
+
+
+
+def popper():
+  container = []
+  num = 654317
+  for i in map(int,str(num)):
+    if i <= 5:
+      container.append("1")
+    elif i > 5:
+      container.append("0")
+    else:
+      print("Bad")
+  print("".join(container))
+popper()
