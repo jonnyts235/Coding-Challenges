@@ -165,3 +165,32 @@ def popper():
       print("Bad")
   print("".join(container))
 popper()
+
+""" Coding Challenge 8 """
+
+import random
+def guessing_game():
+  min = 0
+  max = 101
+  answer = random.randint(min, max)
+  guess = input("What is your Guess? ")
+  if guess.isalpha():
+    print("Thats an Invalid Choice\n")
+    guessing_game()
+  else:
+    guess = int(guess)
+    while answer != "guess":
+      if guess < answer and guess < max:
+        print("Guess a little higher\n")
+        guess = int(input("What is your Guess? "))
+      elif guess > answer and guess < max:
+        print("Guess a little lower\n")
+        guess = int(input("What is your Guess? "))
+      elif  guess > max:
+        print("Invalid Answer...Try Again\n")
+        guess = int(input("What is your Guess? "))
+      elif guess == answer:
+        print("You've guessed correctly...Good Job")
+        break
+      
+guessing_game()
