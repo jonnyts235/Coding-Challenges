@@ -194,3 +194,12 @@ def guessing_game():
         break
       
 guessing_game()
+
+""" Coding Challenge 9 """
+
+def palindrome(word):
+  if word == word[::-1]:
+    print("Its a palindrome")
+  else:
+    print("Its not a palindrome")
+palindrome('racecar')
