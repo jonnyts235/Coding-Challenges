@@ -204,7 +204,7 @@ def palindrome(word):
     print("Its not a palindrome")
 palindrome('racecar')
 
-""" Coding challenge 11 """
+""" Coding challenge 10 """
 
 def fizzbuzz(max_num):
   for num in range(max_num + 1):
