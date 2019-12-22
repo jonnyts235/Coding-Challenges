@@ -203,3 +203,17 @@ def palindrome(word):
   else:
     print("Its not a palindrome")
 palindrome('racecar')
+
+""" Coding challenge 11 """
+
+def fizzbuzz(max_num):
+  for num in range(max_num + 1):
+    if num % 3 == 0 and num % 5 == 0:
+      print("fizzbuzz")
+    elif num % 5 == 0:
+      print("buzz")
+    elif  num % 3 == 0:
+      print("fizz")
+    else:
+      print(num)
+fizzbuzz(100)
