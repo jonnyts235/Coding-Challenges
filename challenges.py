@@ -217,3 +217,13 @@ def fizzbuzz(max_num):
     else:
       print(num)
 fizzbuzz(100)
+
+""" Coding Challenge 11 """
+# Pig Latin translator
+
+def translator():
+    string = ("Jonny Boy").split()
+    for word in string:
+        print(word[1:] + word[0] + "ay", end = " ")
+        # Add (, end = " ") to keep same line
+translator()
