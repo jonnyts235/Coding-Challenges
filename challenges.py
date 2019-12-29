@@ -227,3 +227,15 @@ def translator():
         print(word[1:] + word[0] + "ay", end = " ")
         # Add (, end = " ") to keep same line
 translator()
+
+""" Coding Challenge 12 """
+
+def zipper():
+  first_array = [1,2,3]
+  second_array = [4,5,6]
+  zipped = zip(first_array, second_array)
+  # "".join(zipped)
+  array = [*zipped]
+  print("".join(str(array)))
+  
+zipper()
