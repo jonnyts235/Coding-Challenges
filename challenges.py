@@ -300,6 +300,4 @@ def diner():
 
   checkout()
 
-
-
 diner()
