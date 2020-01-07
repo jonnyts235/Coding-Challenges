@@ -301,3 +301,10 @@ def diner():
   checkout()
 
 diner()
+
+""" Dunder Methods """
+
+class Career:
+  def __init__(self, name, job):
+    self.name = name
+    self.job = job
