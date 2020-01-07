@@ -311,3 +311,6 @@ class Career:
 
   def __str__(self):
   return f"Job offer to {self.name} who is interested in {self.job}"
+
+  def __repr__(self):
+  return f"Job Offer for {self.name}, {self.job}"
