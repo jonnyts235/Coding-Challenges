@@ -314,3 +314,12 @@ class Career:
 
   def __repr__(self):
   return f"Job Offer for {self.name}, {self.job}"
+
+  def Static_Method():
+    return f"This is pointless"
+
+
+job = Career('Jonny', 'Full Stack Dev')
+print(str(job))
+print(repr(job))
+print(Career.Static_Method())
