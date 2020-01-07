@@ -308,3 +308,6 @@ class Career:
   def __init__(self, name, job):
     self.name = name
     self.job = job
+
+  def __str__(self):
+  return f"Job offer to {self.name} who is interested in {self.job}"
