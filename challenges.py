@@ -323,3 +323,16 @@ job = Career('Jonny', 'Full Stack Dev')
 print(str(job))
 print(repr(job))
 print(Career.Static_Method())
+
+""" CodeWars Challenge """
+
+def get_sum(a,b):
+  if a == b:
+    print(b)
+  else:
+    sum = 0
+    c = b + 1
+    for i in range(a,c):
+      sum += i
+      print(sum)
+get_sum(0,4)
