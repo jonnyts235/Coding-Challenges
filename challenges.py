@@ -336,3 +336,12 @@ def get_sum(a,b):
       sum += i
       print(sum)
 get_sum(0,4)
+
+""" Challenge """
+
+def remove_smallest(numbers):
+  array = numbers[:]
+  if array:
+    array.remove(min(array))
+  print(array)
+remove_smallest([3,5,2,5,7,1])
